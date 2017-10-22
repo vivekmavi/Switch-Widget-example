@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LinearLayout_main_xml_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.paras.switch_widget.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch Buttons"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOn="turnOn text"
+        android:textOff="turnOff text"
+        android:text="Switch"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:thumbTint="@color/colorPrimaryDark"
+        android:trackTint="@color/colorAccent"
+        android:showText="true"
+        />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
